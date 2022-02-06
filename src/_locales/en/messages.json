@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Image Rotate Context"
+  },
+  "appDesc": {
+    "message": "Allows you to rotate an image with the right click context menu"
+   },
+   "optRotate": {
+    "message": "Rotate"
+   }
+}

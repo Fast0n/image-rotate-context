@@ -1,4 +1,5 @@
 # Image Rotate Context
+<img width="100" height="100" src="https://raw.githubusercontent.com/fast0n/image-rotate-context/main/src/images/128x128.png" align="right" />
 
 [Offered by: robert](https://chrome.google.com/webstore/detail/image-rotate-context/mbfblhpconbgpgmphhlonlcbnmebdeme?hl=en) all rights reserved
 

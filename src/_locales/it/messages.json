@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Image Rotate Context"
+  },
+  "appDesc": {
+    "message": "Ruota un'immagine con col tasto destro del mouse"
+  },
+  "optRotate": {
+    "message": "Ruota"
+   }
+}

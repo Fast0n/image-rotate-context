@@ -1,19 +1,25 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-	"name"             : "Image Rotate Context",
+	"name": "__MSG_appName__",
+	"description": "__MSG_appDesc__",
+	"default_locale": "en",
 	"manifest_version" : 2,
-	"version"          : "1.0.0",
-	"description"      : "Allows you to rotate an image with the right click context menu",
+	"version"          : "1.0.1",
 	"permissions"      : [ "activeTab", "contextMenus" ],
 	"background"       :
 	{
-		"scripts" : [ "background.js" ]
+		"scripts" : [ "js/background.js" ]
     },
+	"icons": {
+		"16": "images/16x16.png",
+		"32": "images/32x32.png",
+		"48": "images/48x48.png"
+	  },
     "content_scripts" :
     [
     	{
-    		"js" : [ "inpage.js" ],
+    		"js" : [ "js/inpage.js" ],
 			"matches"    : [ "http://*/*", "https://*/*" ],
 			"all_frames" : true
     	}
